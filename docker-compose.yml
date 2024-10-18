@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+  db:
+    image: sqlite3
+    volumes:
+      - db_data:/var/lib/sqlite3
+volumes:
+  db_data:
