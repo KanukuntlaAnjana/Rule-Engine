@@ -26,5 +26,5 @@ This is a simple 3-tier rule engine application that uses an Abstract Syntax Tre
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your_username/rule-engine.git
+   git clone https://github.com/KanukuntlaAnjana/rule-engine.git
    cd rule-engine
